@@ -6,7 +6,7 @@ Proyek ini bertujuan untuk melakukan:
 1. **Klasifikasi sentimen penjualan** berdasarkan nilai `sales`
 2. **Summarization otomatis** (ringkasan tren penjualan) menggunakan **AI** melalui model Replicate + LangChain.
 
-Proyek ini merupakan bagian dari program **Hacktiv8 x IBM SkillsBuild**.
+Proyek ini merupakan bagian dari tugas program **Hacktiv8 x IBM SkillsBuild**.
 
 ## Dataset
 
@@ -27,7 +27,7 @@ Kolom utama yang digunakan:
 - **Replicate API** (untuk summarization AI)  
 - (Opsional) IBM Granite jika digunakan  
 
-## 🔗 Link Tambahan
+## Link Tambahan
 
 - Dataset: [Kaggle eCommerce 2025](https://www.kaggle.com/datasets/mfayyazgiki/ecommerce)
 - GitHub Repository: _[tambahkan nanti]_  
