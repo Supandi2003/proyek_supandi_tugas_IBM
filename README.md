@@ -19,6 +19,16 @@ Kolom utama yang digunakan:
 - `sales`
 - `city`
 
+##  Langkah-langkah Proyek
+
+1. Membaca dan membersihkan data eCommerce
+2. Mengklasifikasikan penjualan:
+   - Sales ≥ 1000 → Positif
+   - 500–999 → Netral
+   - < 500 → Negatif
+3. Membuat deskripsi penjualan dari tiap baris data
+4. Menggunakan **model AI** untuk merangkum informasi tiap baris
+5. Menyimpan hasil sebagai file CSV
 ## Teknologi yang Digunakan
 
 - **Google Colab**  
