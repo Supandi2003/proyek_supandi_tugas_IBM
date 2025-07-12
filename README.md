@@ -1,51 +1,38 @@
-# proyek_supandi_tugas_IBM
- Proyek klasifikasi dan summarization dengan AI
-
-##  Deskripsi Proyek
-Proyek ini bertujuan untuk melakukan:
-1. **Klasifikasi sentimen penjualan** berdasarkan nilai `sales`
-2. **Summarization otomatis** (ringkasan tren penjualan) menggunakan **AI** melalui model Replicate + LangChain.
-
-Proyek ini merupakan bagian dari tugas program **Hacktiv8 x IBM SkillsBuild**.
-
-## Dataset
-
-Dataset yang digunakan adalah:
-📎 [eCommerce Dataset 2025 – by mfayyazgiki on Kaggle](https://www.kaggle.com/datasets/mfayyazgiki/ecommerce)
-
-Kolom utama yang digunakan:
-- `category`
-- `sku`
-- `sales`
-- `city`
-
-##  Langkah-langkah Proyek
-
-1. Membaca dan membersihkan data eCommerce
-2. Mengklasifikasikan penjualan:
-   - Sales ≥ 1000 → Positif
-   - 500–999 → Netral
-   - < 500 → Negatif
-3. Membuat deskripsi penjualan dari tiap baris data
-4. Menggunakan **model AI** untuk merangkum informasi tiap baris
-5. Menyimpan hasil sebagai file CSV
-## Teknologi yang Digunakan
-
-- **Google Colab**  
-- **Python (Pandas)**  
-- **LangChain**  
-- **Replicate API** (untuk summarization AI)  
-- (Opsional) IBM Granite jika digunakan  
-
-## Link Tambahan
-
-- Dataset: [Kaggle eCommerce 2025](https://www.kaggle.com/datasets/mfayyazgiki/ecommerce)
-- GitHub Repository: _[tambahkan nanti]_  
-- Slide Presentasi: _[tambahkan jika ada]_  
+# Title Project
+Data Classification and Summarization Using AI on eCommerce Dataset
 
 ---
 
-## Disusun oleh:
-**Supandi**  
-Peserta Student Development Initiative  
-Hacktiv8 x IBM SkillsBuild
+## Project Overview
+Proyek ini bertujuan untuk mengklasifikasikan data penjualan berdasarkan nilai penjualan (`sales`) serta membuat ringkasan otomatis menggunakan teknologi AI (model IBM Granite melalui Replicate API). 
+
+Model AI digunakan untuk menyimpulkan insight dari data eCommerce berdasarkan kolom seperti `category`, `sku`, `sales`, dan `city`.
+
+---
+
+## Raw Dataset Link
+Dataset yang digunakan berasal dari Kaggle:
+> [https://www.kaggle.com/datasets/mfayyazgiki/ecommerce](https://www.kaggle.com/datasets/mfayyazgiki/ecommerce)
+
+Ukuran: ~19.000 baris  
+Format: CSV
+
+---
+
+## Insight & Findings
+- Penjualan tinggi ditemukan pada produk kategori Simply9
+- Kota Karachi memiliki volume transaksi tertinggi
+- Produk DIY menunjukkan performa netral
+- AI berhasil menyimpulkan data ke dalam bentuk ringkasan otomatis yang padat
+
+---
+
+## AI Support Explanation
+Model AI yang digunakan:  
+`t5-small-summarization` dari Replicate (via LangChain di Google Colab)
+
+Fungsinya:
+- Meringkas deskripsi gabungan dari data (category, sku, sales, city)
+- Mendukung insight otomatis
+- Tidak menggunakan WatsonX karena Replicate + Colab lebih ringan & gratis
+
