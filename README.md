@@ -14,7 +14,7 @@ Model AI digunakan untuk menyimpulkan insight dari data eCommerce berdasarkan ko
 Dataset yang digunakan berasal dari Kaggle:
 > [https://www.kaggle.com/datasets/mfayyazgiki/ecommerce](https://www.kaggle.com/datasets/mfayyazgiki/ecommerce)
 
-Ukuran: ~19.000 baris  
+Ukuran: 797 baris 9 kolom  
 Format: CSV
 
 ---
